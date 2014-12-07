@@ -3,13 +3,12 @@
 <head>
 <meta charset="utf-8">
 <title>Documento sin título</title>
-
-
 </head>
+
 <body>
-	<div class="contenedor" id="01">
-	 	<div class="cabecera" id="02"><img src="Imagenes/01.jpg" width="613" height="70"  alt=""/><img src="Imagenes/02.jpg" width="92" height="70"  alt=""/><img src="Imagenes/03.jpg" width="92" height="70"  alt=""/><img src="Imagenes/04.jpg" width="171" height="70"  alt=""/>
-</div>    
+<div class="contenedor" id="01">
+
+ 	<div class="cabecera" id="02"><img src="Imagenes/01.jpg" width="613" height="70"  alt=""/><img src="Imagenes/02.jpg" width="92" height="70"  alt=""/><img src="Imagenes/03.jpg" width="92" height="70"  alt=""/><img src="Imagenes/04.jpg" width="171" height="70"  alt=""/></div>    
   <div class="imagenes" id="03">
     <table>
       <tr>
