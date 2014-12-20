@@ -189,3 +189,64 @@ button.submit:active {
 
 }
 
+#cont_galeria
+{
+	background-color: #4B4B4B;
+
+}
+#coment_galeria
+{
+	background-color: white;
+	height: 220px;
+	margin: 0px 0px 3px 0px
+
+}
+#img_galeria
+{
+	height: 240px;
+	background-color: white;
+	margin: 0px 0px 3px 0px
+}
+
+#img01
+{
+	width:230px;	
+	height: 194px;
+	margin: 0px 0px 0px 10px;
+	background-color: #4B4B4B;
+
+}
+#img02
+{
+	width:230px;	
+	height: 194px;
+	margin: -194px 0px 0px 300px;
+	background-color: #4B4B4B;
+}
+#img03
+{
+	width:230px;	
+	height: 194px;
+	margin: -194px 0px 0px 600px;
+	background-color: #4B4B4B;
+}
+#actividad
+{
+	background-color: white;
+	margin: 0px 0px 3px 0px
+}
+#dato_curioso
+{
+	background-color: white;
+	margin: 0px 0px 3px 0px
+}
+#img_dato_c
+{
+	background-color: white;
+	box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.4);
+}
+#msg_galeria
+{
+	background-color: white;
+	margin: 0px 0px 3px 0px
+}
