@@ -128,21 +128,19 @@ button.submit:active {
 
 #Centro
 {
-	width:980px;
-	height: 460px;	
-	
-	padding: 5px;
+	width:990px;
+	height: 470px;	
 	background-color: #4B4B4B;
-	padding: 5px;
+	
 }
 
 #Pie
 {
-	width:985px;		
-	padding: 5px;
+	width:985px;			
 	text-align: center;
 	background-color:#333333;
 	padding: 5px ;
+	
 	color: white;
 }
 #opinion
