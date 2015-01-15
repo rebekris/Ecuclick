@@ -63,10 +63,75 @@
       </div>
     </nav>
 
-<center><form class="contact_form", "center" action="registro.php" method="post">
+ <!--Carousel================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="Imagenes/sierra.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Sierra.</h1>
+              <p>Ocupando un cuarto del Ecuador, la sierra separa la tierra medioambientes muy distintos. Está compuesta de dos sierras principales: la Cordillera Occidental y la Cordillera Oriental, y entre ellas, los volcanes. Las varias alturas de los Andes crean una diversidad de ecosistemas que no se ve en otras partes del país.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Leer Más</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="Imagenes/oriente.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Oriente.</h1>
+              <p>Ocupando la mitad  del país, el oriente o el Amazonas ecuatoriano es parte de la gran cuenca del Amazonas. El río Amazonas abarca 6,5 millones de kilómetros cuadrados de tierra, una tercera parte del continente. El sistema fluvial del Amazonas vacía cerca de 179.800 metros cúbicos de agua por segundo en el Océano Atlántico, mucho más que el Nilo aunque éste sea más largo.
+              </p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Leer más</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="Imagenes/costa.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Costa</h1>
+              <p>Ocupando un cuarto de la tierra en Ecuador, la costa está compuesta de las planicies y las tierras bajas hasta 500 metros de los Andes. Aunque está refrescada por la corriente de Perú, tiene por lo general un clima húmedo y tropical.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Leer más</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing" align="center">
+          <center><form class="contact_form", "center" action="registro.php" method="post">
     <ul>
+        <li>  
+             <h2>Registro de Usuario</h2>
+        </li>
         <li>
-             <h2>Registro</h2>
+        <input width="100" hight="144" type="image" name="imageField"  src="Imagenes/F01.jpg" >
+      
+        <input type="text" name="txt_browse">
+        <button class="btn_browse" type="button">Browse</button>
         </li>
         <li>
             <label for="name">Nombre:</label>
@@ -77,19 +142,70 @@
             <input type="email" name="email" placeholder="pepito@ejemplo.com" required />
         </li>
         <li>
-            <label for="website">Contraseña:</label>
+            <label for="website">Contraseña;</label>
             <input type="url" name="web" placeholder=*******" required />
         </li>
          <li>
             <label for="website">Confirmar Contraseña:</label>
             <input type="url" name="web" placeholder=*******" required />
         </li>
-        
-       
         <li>
         	<button class="submit" type="submit">Enviar</button>
         </li>
     </ul>
 </form></center>
-</body>
+       
+     
+      <!-- FOOTER -->
+      <footer>
+          <div class="container"> 
+              <div class="row">
+                <div class="col-lg-4 hidden-xs hidden-sm hidden-m foot">
+                  <form>
+                      <p>Porque su opinion es importante para nosotros. </p>
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingrese su email">
+                          </div>
+                      <div class="form-group">
+                          <textarea type="text" class="form-control" id="exampleInputPassword1" rows="3" placeholder="Mensaje"></textarea>
+                      </div>
+                     
+                      <button type="submit" class="btn btn-default">ENVIAR</button>
+                    </form>
+                  </div>
+              <!-- **********************8 -->
+              
+                <div class="col-lg-4 hidden-xs hidden-sm hidden-m infoCentro foot">
+                    <p class="direccion">Cont&aacute;ctenos</p>     
+                    <span class="direccion glyphicon glyphicon-map-marker ">&nbsp;Malec&oacute;n 100 y Loja</span></br>
+                    <span class="direccion glyphicon glyphicon-earphone">&nbsp;Tel&eacute;fono: (593-4) 2 530271</span></br>
+                    <span class="direccion glyphicon glyphicon-globe">&nbsp;Guayaquil - Ecuador</span></br>
+                    <span class="direccion glyphicon glyphicon-screenshot">&nbsp;C&oacute;digo Postal: EC090194</span>
+                    </br></br></br>
+                        </div>
+                
+                  <!--   ********************** -->
+                            
+                <div class="col-lg-4 hidden-xs hidden-sm hidden-m foot">
+                    <div class="col-lg-6 imgfoot"><center><img class="img-responsive" src="Imagenes/f1.png"/></center></div>
+                    <div class="col-lg-6 imgfoot"><center><img class="img-responsive" src="Imagenes/f2.png"/></center></div>
+                    <div class="col-lg-6 imgfoot"><center><img class="img-responsive" src="Imagenes/f3.png"/></center></div>
+                    <div class="col-lg-6 imgfoot"><center><img class="img-responsive" src="Imagenes/f4.png"/></center></div>
+                  </div>
+              </div>
+          <div class="col-lg-12 col-sm-12 col-md-12 derAutor">
+                  <p>Todos los derechos reservados. Ecuador en un click - EcuaDigital MKT&copy; - 2014</a></p>
+              </div>
+      </footer>
+   <!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
