@@ -117,3 +117,35 @@ color: #fff !important;
 position: absolute;
 padding-left: 25px;
 }
+**** CSS pagina informacion ***/
+.info { 
+padding-top: 83px;
+}
+
+.titulos { 
+color: #434343 !important;
+text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.texto-info{
+	color: #000 !important;
+font-size: 20px;
+text-align: justify;
+margin: 50px !important;
+	}
+	
+	.img-info{
+	border-color: #434343;
+background-color: #434343;
+border-style: solid;
+border-width: 20px;
+margin: 43px !important;
+width: 28% !important;
+align-content:center;
+	}
+	
+
+hr{
+	background-image: url(../images/linea.png) ;}
