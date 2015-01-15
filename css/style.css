@@ -63,3 +63,57 @@ footer .container .row .col-lg-4 p, footer .container .row .col-lg-4 .direccion 
 .imgfoot{
     margin-top: 20px !important;
 }
+
+.space{
+    height: 77px;
+    background-color: #434343 !important;
+}
+
+.img-centro{
+    position: absolute;
+    padding-top: 198px;
+    padding-left: 136px;
+}
+
+.modal-login{
+    background-image: url("../images/fondo.png") ;
+    background-color: #434343 ;
+    background-position: top;
+    
+}
+
+.linea{
+    border-right-style: dotted;
+    border-right-width: 3px;
+    border-bottom-color: #fff;
+}
+
+.fondo-login{
+    background-color: rgba(0,0,0,0.5);
+    text-align: left;
+    
+}
+
+.mimodal{
+    width: 793px;
+}
+
+.modallog{
+ top: -150px !important;
+    height: 600px !important;
+}
+
+.pull-right {
+color: #fff !important;
+}
+
+
+.text-log{
+    color: #000 !important;
+}
+
+.foto-reg{
+    padding-top: 73px;
+position: absolute;
+padding-left: 25px;
+}
