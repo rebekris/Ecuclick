@@ -164,10 +164,10 @@
                                                 <h3 class="strong-header">
                                                     Regístrate
                                                 </h3>
-                                                <p><span>Aún no eres miembro de Servitickets.</span><br>
-                                                <span>Únete a nuestra comunidad y forma parte de nuestra familia.</span><br>  
+                                                <p><span>Aún no eres miembro de Servitickets.</span></br>
+                                                <span>Únete a nuestra comunidad y forma parte de nuestra familia.</span></br>  
                                                 </p>
-                                                <br>
+                                                </br>
                                                 <a href="registro.html" class="home-button btn ">
                                                     Regístrate
                                                 </a>
