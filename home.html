@@ -1,37 +1,120 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html lang="es">
 <head>
-<meta charset="utf-8">
-<title>HOME</title>
-<link rel="stylesheet" href="estilo.css">
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Meta tags -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Proyecto de Programacion Web FIEC,EDCOM ESPOL">
+    <meta name="keywords" content="edcom, espol, ecuador en un click">
+    <meta name="author" content="Ecuadigital MKT"/>
+    <meta name="robots" content="index, follow">
+    
+    <link rel="shortcut icon" href="favicon.png">
+
+    <title>Ecuador en un click</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap01.min.css" rel="stylesheet">
+
+    <!-- Animacije -->
+    <link href="css/animate.css" rel="stylesheet" /> <!-- *****************  OJO ********* -->
+
+    <!-- Font Icons -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<!-- parte 2 -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+ 
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
 
 
 </head>
-<body>
-	<div id="ContenedorPrincipal">
-	 	<div id="Cabecera">
-      <a target="info" href="centro.html"><img src="source/01.jpg" width="613" height="70"  alt=""/> </a>
-      <a target="info" href="galeria2.html"><img src="source/02.jpg" width="92" height="70"  alt=""/></a>
-      <img src="source/03.jpg" width="92" height="70"  alt=""/>
-      <img src="source/04.jpg" width="171" height="70"  alt=""/>
-    </div>    
 
-  <div id="Centro">       
-    <iframe name="info" width="990" height="480" src="centro.html" frameborder="0" ></iframe>
-  </div>
 
-   <div id="Pie"> 
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar-wrapper">
+      <div class="container">
 
-       <div id="opinion">
+        <nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top top-nav-collapse">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="home.html"> 
+              <img class="img-responsive hidden-sm hidden-md hidden-xs" src="images/logo.png" alt="Logo"/>
+
+              <img class="img-responsive visible-xs visible-md visible-sm hidden-lg" src="images/logo-sm.png" alt="Logo"/></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a class="page-scroll" href="#about">Ecuador</a></li>
+                <li><a href="#about">&nbsp; &nbsp; Tips &nbsp; &nbsp;</a></li>
+                <!--li><a href="#contact">Contact</a></li-->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Acerca del Proyecto <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </nav>
+
+
+
+    <!-- About Section -->
+    <section id="about" class="about-section col-lg-12">
+      <div id="Centro">       
+        <iframe name="info" width="990" height="480" src="centro.html" frameborder="0" ></iframe>
+      </div>
+   </section>
+    
+
+
+
+
+
+
+<!--************************** footer ************************-->
+    <footer>
+          <div class="container">
+               
+        <div id="opinion">
       <p>Porque su opinión es importante para nosotros.</p>      
       <p><input name="email" type="text" id="txt_email" value="email"></p>
       <p><textarea name="textarea" id="txt_mensaje">Mensaje</textarea></p>
-      <p >
+      
         <div id="bntEnviar">
-          <input type="submit" id="btn_enviar" value="Enviar">
+          <button type="submit" class="btn btn-default">ENVIAR</button>
         </div>        
-      </p>
+      
     </div>
 
     <div id="contactar">
@@ -45,15 +128,55 @@
 
     <div id="apoyo">
       <p>Con el apoyo de:</p> <br>
-      <img src="Imagenes/pieLogoAllYouNeed.png" width="163" height="69"  alt=""/>
-      <img src="Imagenes/ecud.jpg" width="101" height="80"  alt=""/>
-      <img src="Imagenes/Logotipo_republica_ecuador-18_ministerio_turismo.png" width="163" height="56"  alt=""/>
-      <img src="Imagenes/world-travel-awards-2013.jpg" width="96" height="80"  alt=""/>
+      <img src="images/f1.png" width="163" height="69"  alt="All you need is Ecuador"/>
+      <img src="images/f2.png" width="101" height="80"  alt="Ecu DIgital MKT"/>
+      <img src="images/f3.png" width="163" height="56"  alt="Ministerio de Turismo"/>
+      <img src="images/f4.png" width="96" height="80"  alt="World Tavel Awards"/>
     </div>
     <br>Todos los derechos reservados Ecuador en un click - EcuaDigital MKT - 2014
+        
+              </div>
+      
 
-  </div>
-  
-</div>
+    </footer>
+
+
+    
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <!-- / Contact -->
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+        $(document).ready(function () {
+            $('#tooltipa').tooltip();
+            $('#tooltippic').tooltip();
+            $('#tooltipskype').tooltip();
+            $('#tooltiplinkedin').tooltip();
+            $('#tooltipfacebook').tooltip();
+            $('#tooltipgoogle').tooltip();
+            $('#tooltipinstagram').tooltip();
+        });
+    </script>
 </body>
 </html>
