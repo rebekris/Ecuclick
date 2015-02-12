@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -55,11 +55,9 @@
 
 
 </head>
-
-<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-    <!-- Navigation -->
+<!-- NAVBAR
+================================================== -->
+  <body>
     <nav class="navbar-wrapper">
       <div class="container">
 
@@ -72,14 +70,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html"> 
+              <a class="navbar-brand" href="inicio.html"> 
               <img class="img-responsive hidden-sm hidden-md hidden-xs" src="images/logo.png" />
-              <img class="img-responsive visible-xs visible-md visible-sm hidden-lg" src="images/logo-sm.png"/></a>
+              <img class="img-responsive visible-xs visible-ms hidden-lg" src="images/logo-sm.png"/></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a class="page-scroll" href="#about">Ecuador</a></li>
-                <li><a href="#about">&nbsp; &nbsp; Tips &nbsp; &nbsp;</a></li>
+                <li class="active"><a href="inicio.html">Ecuador</a></li>
+                <li><a href="equilibrio.html">&nbsp; &nbsp; Tips &nbsp; &nbsp;</a></li>
                 <!--li><a href="#contact">Contact</a></li-->
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Acerca del Proyecto <span class="caret"></span></a>
@@ -101,74 +99,67 @@
       </div>
     </nav>
 
- <!--FORMULARIO================================================== -->
-    
-      <section id="Content" role="main">
-      <div class="container">
-      <div class="row space"> </div>
-          <div class="row">
-          <div class="col-lg-offset-2 foto-reg">
-          <img src="images/foto.png" class="img-responsive"/>
-            <div class="form-group">
-            <label for="exampleInputFile">Buscar</label>
-            <input type="file" id="exampleInputFile">
-            <p class="help-block">Seleccione una foto de su galer&iacute;a.</p>
-          </div>
-          </div>
 
-              <div class="col-lg-12 col-md-6 col-sm-offset-4 col-xs-offset-4">
+  <section id="Content" role="main">
+      <div class="container">
+          <div class="row rowlog">
+              <div class="col-md-6 space-left-20">
                   <section class="register element-emphasis-strong">
-                      <h2 class="strong-header large-header text-log">
+                      <h2 class="strong-header large-header">
                           Crear una Cuenta
                       </h2>
                       
                       <div class="simpleForm">                     
                             <div class="successMessage alert alert-success alert-dismissable" style="display: none">
-                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                                 ¡Bienvenid@! Nos pondremos en contacto con usted en breve.
                             </div>
-                            <div class="errorMessage alert alert-danger alert-dismissable" style="display: none">
-                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                            <div class="errorMessage alert alert-danger alert-dismissable texto-info" style="display: none">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                                 Ups! Este correo ya ha sido registrado.
                             </div>
-                          <form role="form" id="form" action="" method="post" class="validateIt text-log" data-show-errors="true" data-hide-form="false">
-                              <div class="form-group">
-                                  <label for="nombre">Nick</label>
-                                  <input type="text" class="form-control" id="nombre" name="nombre" required="" placeholder="Nick" >
+                          <form role="form" id="form" action="php/registro.php" method="post" class="validateIt" data-show-errors="true" data-hide-form="false">
+                              <div class="form-group texto-info">
+                                  <label for="nombre">Nombres</label>
+                                  <input type="text" class="form-control" id="nombre" name="nombre"required>
                               </div>
-                              
-                              <div class="form-group">
+                              <div class="form-group texto-info">
+                                  <label for="apellido">Apellidos</label>
+                                  <input type="text" class="form-control" onblur="apellido" id="apellido" name="apellido"required>
+                          
                                   <label for="correo">Correo Electronico</label>
-                                  <input type="email" class="form-control" id="correo" name="correo" required="" placeholder="E-mail">
-                              </div>
-                              <div class="form-group">
+                                  <input type="email" class="form-control" id="correo" name="correo"required>
+                              
                                   <label for="clave">Contraseña</label>
-                                  <input type="password" class="form-control" id="clave" name="clave" required="" placeholder="Contraseña">
+                                  <input type="password" class="form-control" id="clave" name="clave"  required>
                               </div>
                               
-                              <button class="home-button page-scroll" href="#">Registrarse</button>
+                              <button type="submit" name="iniciar_sesion" id="iniciar_sesion" class="btn btn-primary pull-right">Registrarse</button>
+                              
                           </form>
                       </div>
                   </section>
               </div>
-              <div class="col-lg-offset-8 col-sm-offset-4  col-xs-offset-4">
-                  <section class="element-emphasis-weak text-log">
+              <br/>
+              <div class="col-md-6 space-right-20">
+                <section class="clearfix">
+                  <section class="element-emphasis-weak">
                       <h2 class="strong-header">
                           ¿Ya tienes una cuenta?
                       </h2>
-                      <button class="home-button page-scroll" href="#about">Login</button>
-              </section>
+                      <a type="submit" name="iniciar_sesion" id="iniciar_sesion" class="btn btn-primary pull-right"Efuca href="login.html">Iniciar Sesión</a>
+                      
+                  </section>
               </div>
           </div>
       </div>
   </section>
-   
+<br/>
 
 
-       
-     
-      <!-- FOOTER -->
-    <footer>
+<!--++++++++++++++++++++++++++FOOTER++++++++++++++++++++++++++-->
+
+      <footer>
           <div class="container">
                
               <div class="row">
@@ -219,36 +210,9 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-    <!-- / Contact -->
-
-    <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
-
-    <!-- Custom JS -->
-    <script src="js/custom.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-        $(document).ready(function () {
-            $('#tooltipa').tooltip();
-            $('#tooltippic').tooltip();
-            $('#tooltipskype').tooltip();
-            $('#tooltiplinkedin').tooltip();
-            $('#tooltipfacebook').tooltip();
-            $('#tooltipgoogle').tooltip();
-            $('#tooltipinstagram').tooltip();
-        });
-    </script>
-</body>
+  </body>
 </html>

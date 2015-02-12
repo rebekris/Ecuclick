@@ -1,10 +1,13 @@
 footer {
-    background-image: url(../images/linea.png) ;
+    background-image: url(../images/42396efa-530a-439a-8431-ee9d37183233.png) ;
     background-position: top;
     background-repeat: no-repeat;
-    background-color: #434343;
+    background-color: #434343 !important ;
 }
 
+fondo {
+	background-color:#000000;
+}
 
 @media (min-width: 1200px)
 .container {
@@ -12,17 +15,26 @@ width: auto !important;
 }
 
 .container {
-    width: auto;
+	width: auto;
     padding-right: 10px !important;
     padding-left: 10px !important;
     margin-right: auto !important;
     margin-left: auto !important;
 }
+.tips {
+	background-image: url(../images/fondo.png) ;
+	background-color:#3A3737 !important ;
+    width: auto;
+	height: auto;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
 
 @media (min-width: 1200px)
 .col-lg-4 {
 width: 400px!important;
-margin-left: 20px !important;
+margin-left: 10px !important;
 margin-right: -1px !important;
 }
 
@@ -32,7 +44,7 @@ margin-right: -1px !important;
 
 footer .container .row .col-lg-4 p, footer .container .row .col-lg-4 .direccion  {
     color: #fff !important;
-    margin-top: 16px !important;
+    margin-top: 10px !important;
     padding: 5px  !important;;
 }
 
@@ -64,63 +76,18 @@ footer .container .row .col-lg-4 p, footer .container .row .col-lg-4 .direccion 
     margin-top: 20px !important;
 }
 
-.space{
-    height: 77px;
-    background-color: #434343 !important;
-}
 
-.img-centro{
-    position: absolute;
-    padding-top: 198px;
-    padding-left: 136px;
-}
-
-.modal-login{
-    background-image: url("../images/fondo.png") ;
-    background-color: #434343 ;
-    background-position: top;
-    
-}
-
-.linea{
-    border-right-style: dotted;
-    border-right-width: 3px;
-    border-bottom-color: #fff;
-}
-
-.fondo-login{
-    background-color: rgba(0,0,0,0.5);
-    text-align: left;
-    
-}
-
-.mimodal{
-    width: 793px;
-}
-
-.modallog{
- top: -150px !important;
-    height: 600px !important;
-}
-
-.pull-right {
-color: #fff !important;
-}
-
-
-.text-log{
-    color: #000 !important;
-}
-
-.foto-reg{
-    padding-top: 73px;
-position: absolute;
-padding-left: 25px;
-}
-**** CSS pagina informacion ***/
+/**** CSS pagina informacion ***/
 .info { 
-padding-top: 83px;
+padding-top: 70px;
 }
+.titulo { 
+color: #ffffff !important;
+text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+}
+
 
 .titulos { 
 color: #434343 !important;
@@ -129,23 +96,59 @@ text-transform: uppercase;
 font-weight: bold;
 }
 
-.texto-info{
-	color: #000 !important;
-font-size: 20px;
+.texto-tips{
+color: #ffffff !important;
+font-size: 18px;
 text-align: justify;
 margin: 50px !important;
+background-color:  rgba(0, 0, 0, 0.55),
+	}
+
+
+.texto-info{
+color: #000000 !important;
+font-size: 18px;
+text-align: justify;
+
 	}
 	
-	.img-info{
-	border-color: #434343;
+.img-info{
+border-color: #434343;
 background-color: #434343;
 border-style: solid;
 border-width: 20px;
-margin: 43px !important;
-width: 28% !important;
-align-content:center;
-	}
+margin: 20px !important;
+width: 20% !important;
+position: center;
+}
 	
 
 hr{
-	background-image: url(../images/linea.png) ;}
+	background-image: url(../images/linea.png) ;
+}
+.milinea{
+    border-top: 10px solid #eee !important;}
+
+.misimg{
+    border: 17px solid #4e4d49;
+    
+}
+
+.row{
+    margin-bottom: 12px;
+    
+}
+
+h2 {
+    font-size: 30px !important ;
+    color: #000 !important;
+        
+}
+
+.rowlog{
+    padding-top: 150px !important;
+}
+	
+.mitexto{
+    color : #272727 !important;
+}    
