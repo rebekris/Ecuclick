@@ -22,8 +22,8 @@ width: auto !important;
     margin-left: auto !important;
 }
 .tips {
-	background-image: url(../images/fondo.png) ;
-	background-color:#3A3737 !important ;
+	
+	background-color:#fff !important ;
     width: auto;
 	height: auto;
     margin-right: auto !important;
@@ -145,10 +145,26 @@ h2 {
         
 }
 
+h3 {
+    font-size: 20px !important;
+    color: #000 !important;
+        
+}
+
 .rowlog{
     padding-top: 150px !important;
 }
 	
 .mitexto{
     color : #272727 !important;
+    text-align: center;
 }    
+
+.comentarios{
+    color : #272727 !important;
+} 
+.comment {
+    border-color: #696969;
+border-style: double;
+    width: 80%;
+}
